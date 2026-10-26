@@ -1,0 +1,41 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2091",
+		"android": "2.2091",
+		"mac": "2.2091",
+		"ios": "2.2091"
+	},
+	"id": "nwo5.text-object-fix",
+	"name": "text object fix",
+	"version": "v1.0.0",
+	"developer": "nwo5",
+	"description": "removes 400 byte and no newline limit on text",
+	"tags": ["bugfix", "utility", "offline"],
+	"dependencies": {
+		"nwo5.silly-api": ">=3.0.0"
+	},
+	"links": {
+		"source": "https://github.com/Nwo5-trg/Text-Object-Fix",
+		"community": "https://discord.gg/AeFeYWGUxZ"
+	},
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"name": "Enabled",
+			"default": true
+		},
+		"insert-newlines": {
+			"type": "bool",
+			"name": "Insert Newlines (\\n)",
+			"default": true,
+			"description": "replaces \"\\n\" with a newline when typed in edit object popup text field"
+		},
+		"input-bypass": {
+			"type": "bool",
+			"name": "Input Bypass",
+			"default": true,
+			"description": "dont limit text length or characters in edit object popup text field"
+		}
+	}
+}
